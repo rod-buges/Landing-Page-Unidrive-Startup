@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Jost:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    text-decoration: none;
+}
+
+body {
+    min-height: 75%;
+    font-size: 100%;
+    background: linear-gradient(#141e30, #243b55);
+}
+
+.cabecalho {
+    background: #000000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem {
+    height: 50px;
+}
+
+.cabecalho-menu {
+    
+    display: flex;
+    gap: 60px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Jost', sans-serif;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.conteudo {
+    
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 120px;
+    color: #FFFFFF;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    color: #FFFFFF;
+    margin-bottom: 100px;
+}
+
+.conteudo-principal-escrito-botao {
+    display: flex;
+    position: absolute;
+    overflow: hidden;
+    width: 230px;
+    height: 66px;
+    border-radius: 5px;
+    align-items: center;
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #03e9f4;
+}
+
+
+
+.conteudo-principal-escrito-botao::before{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 290px;
+    background: linear-gradient(#03e9f4,#03e9f4);
+    animation: animate 2s linear infinite;
+     box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 100px #03e9f4;
+}
+
+@keyframes animate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+.conteudo-principal-escrito-botao::after{
+
+    content: '';
+    position: absolute;
+    inset: 4px;
+    background:#1A293E;
+    border-radius: 0px;
+    
+}
+
+.conteudo-principal-escrito-botao2:hover {
+    width: 230px;
+    font-size: 30px;
+    left: 0px;
+    top: -64px;
+    
+    display: flex;
+    position: relative;
+  align-items: center;
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 100px #03e9f4;
+                
+}
+
+.conteudo-principal h2{
+    
+    justify-content: center;
+    position: relative;
+    color: #03e9f4;
+    font-weight: 600;
+    font-size: 30px;
+
+}
+
+.conteudo-principal-escrito-botao2 {
+
+    justify-content: center;
+     width: 220px;
+    height: 63px;
+  align-items: center;
+    position: absolute;
+    top: -56px;
+    right: -24px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #03e9f4;  
+}
+
+.conteudo-principal-imagem {
+    width: 880px;
+    height: 550px;
+    left: 400px;
+    top: 200px;
+    margin-top: 220px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-top: 70px;
+
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.6px solid #FFF2E7;
+  padding-top: 40px;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 70%;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+    
+}
+
+.conteudo-secundario-paragrafo {
+    text-align: center;
+   margin-left: 100px;
+   margin-right: 100px;
+    font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+.rodape {
+    padding: 70px;
+    
+}
