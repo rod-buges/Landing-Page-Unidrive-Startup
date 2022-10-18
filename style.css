@@ -17,7 +17,7 @@ body {
 }
 
 .cabecalho {
-    background: #000000;
+    background: transparent;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -40,6 +40,10 @@ body {
     color: #FFFFFF;
     font-weight: 600;
     font-size: 20px;
+}
+
+.cabecalho-menu-item {
+    color: #03e9f4;
 }
 
 .conteudo {
