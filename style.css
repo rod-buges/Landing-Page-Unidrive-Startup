@@ -41,7 +41,7 @@ body {
     font-size: 20px;
 }
 
-.cabecalho-menu-item {
+.cabecalho-menu-item:hover {
     color: #03e9f4;
 }
 
