@@ -17,7 +17,7 @@ body {
 }
 
 .cabecalho {
-    background: transparent;
+    background: red;
     display: flex;
     flex-direction: row;
     align-items: center;
