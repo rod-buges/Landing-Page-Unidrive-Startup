@@ -67,6 +67,7 @@ body {
     font-weight: 600;
     font-size: 120px;
     color: #FFFFFF;
+    margin-left: 30px;
 }
 
 .conteudo-principal-escrito-subtitulo {
@@ -75,9 +76,11 @@ body {
     font-size: 32px;
     color: #FFFFFF;
     margin-bottom: 100px;
+    margin-left: 30px;
 }
 
 .conteudo-principal-escrito-botao {
+    margin-left: 30px;
     display: flex;
     position: absolute;
     overflow: hidden;
@@ -156,7 +159,7 @@ body {
 }
 
 .conteudo-principal-escrito-botao2 {
-
+    margin-left: 30px;
     justify-content: center;
      width: 220px;
     height: 63px;
@@ -175,7 +178,8 @@ body {
     height: 550px;
     left: 400px;
     top: 200px;
-    margin-top: 220px;
+    margin-top: 180px;
+    margin-right: 50px;
 }
 
 .conteudo-secundario {
